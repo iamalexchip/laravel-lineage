@@ -68,6 +68,14 @@ $subjects = Subject::get();
 $quizzes = $subjects->lineage('courses->chapters->topics->sections->quizzes');
 ```
 
+We can even get the inverse  of that
+```php
+$quiz = Quiz::find(1);
+$subject = $quiz->lineage('section->topic->chapter->course->subject')->first();
+
+```
+
+**NB: lineage always returns a collection hence the use of first in the above**
 
 ## Lineage format
 

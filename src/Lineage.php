@@ -104,6 +104,7 @@ class Lineage
     private function parse()
     {
         $picker = new Picker($this->structure, $this->source);
+        
         return $picker->get();
     }
 }
