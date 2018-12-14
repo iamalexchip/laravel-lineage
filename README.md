@@ -1,5 +1,5 @@
 # Laravel Lineage
-A package for chain calling Laravel relationships. Some relationships return collections so can't be chained.
+A package for chain calling Laravel relationships. Some relationships return collections so can't be chained. This package provides a way to get past that.
 
 ## Installation
 Install with composer
