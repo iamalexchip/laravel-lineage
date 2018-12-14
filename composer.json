@@ -1,13 +1,12 @@
 {
     "name": "zerochip/laravel-lineage",
     "type": "package",
-    "description": "",
+    "description": "A Laravel package for chain calling eloquent relationships",
     "license": "MIT",
     "keywords": [
         "laravel",
-        "boostrap",
-        "treeview",
-        "boostrap-treeview"
+        "eloquent",
+        "eloquent-realtionships"
     ],
     "authors": [
         {

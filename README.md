@@ -28,7 +28,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Zerochip\Lineage\LineageTrait
 
-class Control extends Model
+class Subject extends Model
 {
     use LineageTrait;
 }
